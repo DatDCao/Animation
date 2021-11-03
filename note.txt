@@ -1,0 +1,28 @@
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: ani;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation-fill-mode: forwards; */
+  animation-delay: 2s;
+}
+
+@keyframes ani {
+  50% {
+    width: 30px;
+    background-color: black;
+  }
+  100% {
+    width: 100%;
+    background-color: aqua;
+  }
+  /* from {
+    width: 100px;
+  }
+  to {
+    width: 100%;
+  } */
+}
