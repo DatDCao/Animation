@@ -26,3 +26,9 @@
     width: 100%;
   } */
 }
+tạo git
+  git init
+1: git add . (chọn tệp cần đăng lên git)
+2: git commit -m "comment" ()
+3: tạo connect với repository 
+4: git push (lần đầu: git push -u origin master)
